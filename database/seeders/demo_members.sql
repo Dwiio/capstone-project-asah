@@ -1,0 +1,3 @@
+-- Optional synthetic seed rows; run after importing database/power_gym_fitness.sql.
+-- The main SQL already contains equivalent synthetic sample rows; do not run both sets.
+-- All names and phone numbers below are fictional demonstration data.

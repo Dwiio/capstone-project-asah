@@ -1,0 +1,6 @@
+member_id,name,phone,package,start_date,end_date,administrative_status,created_at,data_origin
+PG-0001,Demo Member One,081234567801,Monthly,2026-11-10,2026-12-10,active,2026-11-10,SYNTHETIC_DEMO
+PG-0002,Demo Member Two,081234567802,Quarterly,2026-08-14,2026-11-12,active,2026-08-14,SYNTHETIC_DEMO
+PG-0003,Demo Member Three,081234567803,Monthly,2026-11-20,2026-11-26,active,2026-11-20,SYNTHETIC_DEMO
+PG-0004,Demo Member Four,081234567804,Monthly,2026-10-01,2026-10-31,inactive,2026-10-01,SYNTHETIC_DEMO
+PG-0005,Demo Member Five,081234567805,Quarterly,2026-09-01,2026-11-30,active,2026-09-01,SYNTHETIC_DEMO

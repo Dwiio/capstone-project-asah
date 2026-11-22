@@ -1,0 +1,85 @@
+{
+  "users": [
+    {
+      "id": "USR-001",
+      "name": "Administrator",
+      "email": "admin@powergym.local",
+      "salt": "f65254b9743de46b78b01f6a35938fb3",
+      "hash": "0834faca7cccb5743dafba750e5053f16f7a71dea069a07fa89dd5ae0a7e9d0c2a69da5e0436307cc5c06d7080754d867db26239f99084f020877b8f7765e1cd",
+      "role": "admin",
+      "createdAt": "2026-11-22T14:59:23.734Z"
+    }
+  ],
+  "packages": [
+    {
+      "id": "PKG-001",
+      "name": "Monthly",
+      "durationDays": 30,
+      "price": 0,
+      "description": "Harga dan ketentuan dikonfirmasi langsung kepada pengelola.",
+      "active": true
+    },
+    {
+      "id": "PKG-002",
+      "name": "Quarterly",
+      "durationDays": 90,
+      "price": 0,
+      "description": "Harga dan ketentuan dikonfirmasi langsung kepada pengelola.",
+      "active": true
+    }
+  ],
+  "members": [
+    {
+      "id": "PG-0001",
+      "name": "Demo Member One",
+      "phone": "081234567801",
+      "email": "",
+      "packageId": "PKG-001",
+      "startDate": "2026-11-10",
+      "endDate": "2026-12-10",
+      "status": "active",
+      "notes": "Synthetic demonstration record",
+      "createdAt": "2026-11-22T14:59:23.735Z",
+      "updatedAt": "2026-11-22T14:59:23.735Z",
+      "deletedAt": null
+    },
+    {
+      "id": "PG-0002",
+      "name": "Demo Member Two",
+      "phone": "081234567802",
+      "email": "",
+      "packageId": "PKG-002",
+      "startDate": "2026-08-14",
+      "endDate": "2026-11-12",
+      "status": "expired",
+      "notes": "Synthetic demonstration record",
+      "createdAt": "2026-11-22T14:59:23.735Z",
+      "updatedAt": "2026-11-22T14:59:23.735Z",
+      "deletedAt": null
+    },
+    {
+      "id": "PG-0003",
+      "name": "Demo Member Three",
+      "phone": "081234567803",
+      "email": "",
+      "packageId": "PKG-001",
+      "startDate": "2026-11-20",
+      "endDate": "2026-11-26",
+      "status": "active",
+      "notes": "Synthetic demonstration record",
+      "createdAt": "2026-11-22T14:59:23.735Z",
+      "updatedAt": "2026-11-22T14:59:23.735Z",
+      "deletedAt": null
+    }
+  ],
+  "logs": [
+    {
+      "id": "00f635c1-f059-4328-b046-667aaab45ee4",
+      "action": "LOGIN",
+      "detail": "Administrator masuk",
+      "user": "admin@powergym.local",
+      "at": "2026-11-22T15:00:47.782Z"
+    }
+  ],
+  "chat": []
+}
